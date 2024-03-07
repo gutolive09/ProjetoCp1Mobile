@@ -5,7 +5,7 @@ export default function Header() {
     <View style={styles.header}>
       <StatusBar translucent={true} backgroundColor={'transparent'}/>
       <View style={styles.container}>
-        <Text style={styles.title}>Header</Text>
+        <Text style={styles.title}>Bucket List</Text>
       </View>
     </View>
   );
@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
     width: "100%",
     height: 100,
-    backgroundColor: "#212121",
+    backgroundColor: "#7469B6",
   },
   container: {
     flex: 1,
@@ -26,6 +26,6 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 35,
     fontWeight: "bold",
-    color: "#14FFEC",
+    color: "#FFE6E6",
   },
 });
