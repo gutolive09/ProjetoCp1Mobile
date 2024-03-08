@@ -6,7 +6,7 @@ Desenvolvido por:
 
 ### Tema: Bucket list de animes de romance
 
-Decidimos criar um app com uma lista dos nossos animes de romance favoritos com imagem e sinopse. 
+Decidimos criar um app com uma lista dos nossos animes de romance favoritos com imagem e sinopse.\  
 ❤ Espero que goste ❤ 
 
 ## Paleta de cores
