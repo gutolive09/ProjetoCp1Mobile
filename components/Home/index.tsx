@@ -56,11 +56,17 @@ export default function Home() {
     title: "Citrus",
     desc: "A Yuzu e Mei se tornam irmãs quando seus pais decidem casar novamente. Tudo parecia bem, mas as duas são muitos diferentes e Yuzu passa por momentos difíceis quando precisa entrar em um novo colégio bastante rígido. Em certo ponto, após um beijo inesperado, a indecifrável e fria Mei começa a provocar sentimentos desconhecidos em Yuzu, que acredita estar apaixonada pela irmã."
 
+  },
+  {
+    img: require("../../assets/img/KiminoNawa.webp"),
+    title: "Your Name",
+    desc: "Mitsuha é uma garota do ensino médio que mora na cidade de Itomori, na região montanhosa de Hida, Japão. Entediada com a vida no campo, deseja ter uma vida mais agitada, querendo mudar-se para Tóquio. Taki, um garoto do ensino médio que vive em Tóquio, começa a trocar de corpo com Mitsuha por várias vezes. Um dia as trocas param causando curiosidade em Taki motivando-o a procurar sobre o povoado de Mitsuha, o que o leva a uma terrível descoberta."
+
   },]
 
   return (
     <View style={styles.main}>
-      
+
       {series.map( serie => (<Items image={serie.img} title={serie.title} desc={serie.desc}/>))}
      
     </View>
