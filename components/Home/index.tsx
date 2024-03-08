@@ -1,10 +1,9 @@
-import { StyleSheet, SafeAreaView, ScrollView } from 'react-native'
+import { StyleSheet, View } from 'react-native'
 import Items from '../Items'
 
 export default function Home() {
   return (
-    <ScrollView>
-    <SafeAreaView style={styles.main}>
+    <View style={styles.main}>
      
       <Items image={require("../../assets/img/Goutobon.jpg")} title={"Goutobon no Hanayome"} desc={"As Quintuplas é um anime que segue a história de Fuutarou Uesugi, um tutor contratado para ensinar as quintuplas Nakano - Ichika, Nino, Miku, Yotsuba e Itsuki. O enredo combina comédia romântica, drama e slice of life, explorando temas de família, amizade e amor."}/>
       <Items image={require("../../assets/img/Dxd.jpg")} title={"High School DxD"} desc={"High School DxD é um anime que combina ação, comédia, romance e fantasia com elementos ecchi. A história segue Issei Hyoudou, um estudante ressuscitado como demônio, recrutado por Rias Gremory. Envolvendo batalhas sobrenaturais, a série aborda temas de amizade, lealdade e poder."}/>
@@ -15,18 +14,16 @@ export default function Home() {
       <Items image={require("../../assets/img/Saekano.jpg")} title={"Saekano"} desc={"Tomoya Aki, um adolescente que trabalha meio período para financiar seu estilo de vida otaku (animes, jogos de namoro, light novels e produtos parecidos) encontra uma garota bonita um dia, durante as férias de primavera.  Um mês depois, ele descobre que a garota é sua colega de turma, Megumi Kato, que é quase imperceptível para seus colegas de classe."}/>
       <Items image={require("../../assets/img/Monster.jpg")} title={"Monster Musume"} desc={"A história gira em torno do protagonista Kurusu Kimihito, que muitas vezes é chamado de querido, dentre outros apelidos carinhosos, pelas suas hóspedes. Após ele se envolver por engano em um programa de Intercâmbio Cultural de Interespécies, como consequência sua vida diária acaba tornando-se uma verdadeira bagunça."}/>
       <Items image={require("../../assets/img/Citrus.jpg")} title={"Citrus"} desc={"A Yuzu e Mei se tornam irmãs quando seus pais decidem casar novamente. Tudo parecia bem, mas as duas são muitos diferentes e Yuzu passa por momentos difíceis quando precisa entrar em um novo colégio bastante rígido. Em certo ponto, após um beijo inesperado, a indecifrável e fria Mei começa a provocar sentimentos desconhecidos em Yuzu, que acredita estar apaixonada pela irmã."}/>
-      
-    </SafeAreaView>
-    </ScrollView>
+    </View>
+  
   )
 }
 
 const styles = StyleSheet.create({
   main:{
     width: "100%",
-    paddingHorizontal: 50,
+    paddingHorizontal: 40,
     paddingVertical: 20,
-    gap: 20,
-    marginBottom:100
+    gap: 30,
   }
 })

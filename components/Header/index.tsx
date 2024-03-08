@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, Platform, StatusBar } from "react-native";
 export default function Header() {
   return (
     <View style={styles.header}>
-      <StatusBar translucent={true} backgroundColor={'transparent'}/>
+      <StatusBar translucent={true} backgroundColor={'#7469B6'}/>
       <View style={styles.container}>
         <Text style={styles.title}>Bucket List</Text>
       </View>
