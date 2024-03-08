@@ -1,16 +1,17 @@
 import { ImageBackground, SafeAreaView, ScrollView, StyleSheet} from 'react-native';
 import Header from "./components/Header"
 import Home from './components/Home';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
     
     <SafeAreaView style={styles.container}>
-      <Header/>
-      
       <ImageBackground source={require('./assets/img/escola.jpg')} resizeMode='cover' style={styles.image}>
       <ScrollView>
+      <Header/>
       <Home/>
+      <Footer/>
       </ScrollView>
       </ImageBackground>
     </SafeAreaView>
