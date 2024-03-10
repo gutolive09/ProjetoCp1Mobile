@@ -11,8 +11,8 @@ export default function Footer() {
           <Text>RM: 550548</Text>
         </View>
         <View style={styles.item}>
-          <Text>Gustavo de Oliveira Azevedo</Text>
-          <Text>RM: 550548</Text>
+          <Text>Mateus Mantovani</Text>
+          <Text>RM: 98524</Text>
         </View>
       </View>
     </View>
